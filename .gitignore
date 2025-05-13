@@ -1,0 +1,6 @@
+/manage.py
+/db.sqlite3
+/fromagerie/migrations/
+/fromagerie/tests.py
+/.venv/
+.idea/
