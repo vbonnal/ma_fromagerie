@@ -13,11 +13,14 @@ static/*
 !static/logo.png
 staticfiles/*
 staticfiles/.gitkeep
+
 # Ignorer tous les dossiers __pycache__ partout et leur contenu
 __pycache__/
 **/__pycache__/
 **/__pycache__/*
+
 # ignorer les fichiers compilés Python
 *.pyc
 *.pyo
 *.pyd
+
