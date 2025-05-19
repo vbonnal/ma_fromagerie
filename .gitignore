@@ -1,5 +1,23 @@
-/db.sqlite3
+**/local_settings.py
+/*.sqlite3
 /fromagerie/migrations/
 /fromagerie/tests.py
 /.venv/
 .idea/
+static/*
+!static/.gitkeep
+!static/aop-fr.png
+!static/coup_de_coeur.png
+!static/nouveaute.png
+!static/promo.png
+!static/logo.png
+staticfiles/*
+staticfiles/.gitkeep
+# Ignorer tous les dossiers __pycache__ partout et leur contenu
+__pycache__/
+**/__pycache__/
+**/__pycache__/*
+# ignorer les fichiers compilés Python
+*.pyc
+*.pyo
+*.pyd

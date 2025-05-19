@@ -55,9 +55,29 @@ def generer_etiquettes_action(modeladmin, request, queryset):
 
         # Informations du fromage
         # nom
-        p.setFont(style_bold.fontName, style_bold.fontSize+6)
-        p.drawString(x_offset + 2.0 * cm, y_offset + 5 * cm, fromage.nom)
-        p.setFont(style_normal.fontName, style_normal.fontSize+2)
+        p.setFont(style_bold.fontName, style_bold.fontSize + 4)
+        nom_fromage = fromage.nom
+        max_chars_per_line = 13
+        y_text = y_offset + 5.5 * cm
+        line_height = style_bold.fontSize / 72 * cm  # Convertir la taille de police en cm (approximatif)
+
+        if len(nom_fromage) <= max_chars_per_line:
+            p.drawString(x_offset + 2.0 * cm, y_text, nom_fromage)
+        else:
+            lines = []
+            current_line = ""
+            for word in nom_fromage.split():
+                if len(current_line + word) <= max_chars_per_line:
+                    current_line += (word + " ")
+                else:
+                    lines.append(current_line.strip())
+                    current_line = word + " "
+            lines.append(current_line.strip())  # Ajouter la dernière ligne
+
+            for line in lines:
+                p.drawString(x_offset + 2.0 * cm, y_text, line)
+                y_text -= line_height * 3.5  # Ajuster l'espacement entre les lignes
+        p.setFont(style_normal.fontName, style_normal.fontSize + 2)
 
         # origine du lait et fabrication
         if fromage.lait_fabrication or fromage.origine_lait.exists():
