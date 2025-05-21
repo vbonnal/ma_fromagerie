@@ -4,7 +4,7 @@ Ce projet est une application web Django pour la gestion d'une fromagerie, inclu
 
 Ce projet a été réalisé dans le cadre d'un stage BBA (de Toulouse Business School) en mai-juin 2025 dans un commerce de vente de fromages (La Fromagerie Pescalune à Lunel, France). 
 
-Le stagiaire a formalisé le cahier des charges, spécifié les besoins fonctionnels issu de discussions avec sa tutrice et a confié la réalisation de l'application web à un développeur python. Le stagiaire a ensuite assuré les interactions entre le développeur et sa tutrice dans la phase de mise en oeuvre sur pythonanywhere et a assuré la formation de sa tutrice à l'utilisation de l'application web.
+Le stagiaire a formalisé le cahier des charges, spécifié les besoins fonctionnels issus de discussions avec sa tutrice et a confié la réalisation de l'application web à un développeur python. Le stagiaire a ensuite assuré les interactions entre le développeur et sa tutrice dans la phase de mise en oeuvre sur pythonanywhere et a assuré la formation de sa tutrice à l'utilisation de l'application web.
 
 ## Fonctionnalités
 
