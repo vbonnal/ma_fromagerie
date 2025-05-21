@@ -20,7 +20,7 @@ Le stagiaire a formalisé le cahier des charges, spécifié les besoins fonction
 * **Django :** Framework web Python.
 * **ReportLab :** Bibliothèque Python pour la génération de PDF.
 * **PythonAnywhere :** Plateforme d'hébergement.
-
+g
 ## Licence
 Ce projet est sous licence MIT (https://opensource.org/licenses/MIT). 
 Cela signifie que vous êtes libre d'utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, de sous-licencier et/ou de vendre des copies du logiciel, sous réserve de l'inclusion de l'avis de droit d'auteur et de cet avis de permission dans toutes les copies ou parties substantielles du Logiciel.
