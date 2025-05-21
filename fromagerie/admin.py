@@ -284,7 +284,7 @@ def draw_dotted_lines(p):
         p.line(x, A4[1] - MARGE_PAGE_HAUT + ESPACEMENT_Y / 2, x, MARGE_PAGE_BAS - ESPACEMENT_Y / 2)
 
 
-generer_etiquettes_action.short_description = "Générer les étiquettes PDF (6 par page A4) des fromages sélectionnés"
+generer_etiquettes_action.short_description = "Générer les étiquettes  des fromages sélectionnés en PDF (8 par page A4)"
 
 
 
