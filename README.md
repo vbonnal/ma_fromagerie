@@ -8,7 +8,7 @@ Le stagiaire a formalisé le cahier des charges, spécifié les besoins fonction
 
 ## Fonctionnalités
 
-* **Gestion des Fromages :** CRUD complet pour les fromages (ajout, suppression, modification) avec de nombreuses caractéristiques (nom, type de lait, origine animale, matière grasse, prix, etc.).
+* **Gestion des Fromages :** Crud complet pour les fromages (ajout, suppression, modification) avec de nombreuses caractéristiques (nom, type de lait, origine animale, matière grasse, prix, etc.).
 * **Gestion des Catégories :** Types de fromage, types de fabrication du lait, origine animale du lait, unités de prix.
 * **Génération d'Étiquettes PDF :** Action personnalisée dans l'interface d'administration pour générer des étiquettes imprimables pour les fromages sélectionnés, avec des informations détaillées et des indicateurs visuels (AOP, promotion, coup de cœur, nouveauté).
 * **Marquage d'Impression :** Possibilité de marquer les fromages pour impression et de décocher ce marqueur après génération des étiquettes.
@@ -20,6 +20,12 @@ Le stagiaire a formalisé le cahier des charges, spécifié les besoins fonction
 * **Django :** Framework web Python.
 * **ReportLab :** Bibliothèque Python pour la génération de PDF.
 * **PythonAnywhere :** Plateforme d'hébergement.
+
+## Licence
+Ce projet est sous licence MIT (https://opensource.org/licenses/MIT). 
+Cela signifie que vous êtes libre d'utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, de sous-licencier et/ou de vendre des copies du logiciel, sous réserve de l'inclusion de l'avis de droit d'auteur et de cet avis de permission dans toutes les copies ou parties substantielles du Logiciel.
+Copyright Notice:
+* Copyright (c) 2025 Vincent BONNAL
 
 ## Installation Locale
 
